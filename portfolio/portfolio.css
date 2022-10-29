@@ -542,13 +542,13 @@ body {
 .section--two {
     display: flex;
     padding-top: 6%;
-    margin-left: 5em;
+    margin-left: 4.5em;
     margin-bottom: 4em;
 }
 
 #about--me{
-    font-weight: bolder;
-    font-size:medium;
+    font-weight: bold;
+    font-size:small;
     max-width: 17em;
     font-family: 'Courier New','monospace';
     margin-top: 1em;
@@ -560,7 +560,7 @@ body {
     font-size:0.7em;
     line-height: 1.5em;
     font-family: 'Courier New' ;
-    margin-left: 1.5em;
+    margin-left: 1em;
 }
 
 .work--history--section{
@@ -617,14 +617,14 @@ body {
 }
 
 #project--text{
-    margin-left: 4em;
+    margin-left: 3em;
     margin-top: 5em;
     margin-bottom: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .projects {
-    margin-left: 5.5em;
+    margin-left: 3em;
     margin-bottom: 4em;
     margin-top: 2em;
    
@@ -686,7 +686,7 @@ body {
    text-decoration-line: underline;  
    font-size: 1em;
    font-weight: bold;
-   margin-left: 4em;
+   margin-left: 2.5em;
 
 }
 
