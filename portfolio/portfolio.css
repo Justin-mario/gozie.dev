@@ -5,7 +5,7 @@ body {
 }
 
 *{
-    
+    font-weight: bold;
     box-sizing: border-box;
    
  }
@@ -656,7 +656,6 @@ body {
     margin-left: 5.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.8em;
-    
 }
 
 .last--section{
