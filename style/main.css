@@ -1,0 +1,275 @@
+
+body {
+    max-width: 100%;
+    background-color:#b3b8b8;
+    
+}
+
+*{
+    font-family: 'Georgia','serif'; 
+    line-height: 1.5em;
+    box-sizing: border-box;
+    font-size: large;
+ }
+
+
+    #container--main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-top: 1.5%;
+        margin-bottom: 0%;
+        justify-content: center;
+        
+     }
+    
+     .section--one {
+        background-color:white;
+        max-width: 50%;
+        padding: 5% 9% 5% 9%;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+     }
+     
+     .section--two {
+        background-color:rgb(240, 240, 240);
+        max-width: 50%;
+        justify-content: center;
+        padding: 7% 7% 5% 5%;
+     }
+    
+     #profile-pic {
+        max-width:20em;
+        max-height:10.5em;
+        object-fit: cover;
+        margin-bottom: 1em;
+    }
+    
+    #hero--name{
+        font-size: 1.1em;
+        font-weight: bold;
+       
+    }
+    
+    #about{
+        text-align: center;
+        margin-bottom: 2em;
+        font-weight: bold;
+    }
+    
+    .btn--btn {
+        color: #fff;
+        background-color:#000;
+        margin-top: 4em;   
+    }
+    
+    #resume--btn {
+        margin-left: 2em;
+        padding: 0.1em 2em;
+    }
+    
+    #portfolio--btn {
+    
+        margin-left: 6em;
+        padding: 0.1em 2em;
+    }
+    
+    .email--me {
+        padding: 0.1em 3em;
+        color: #fff;
+        background-color:#000;
+        margin-top: 1em;
+    }
+    
+    .social--icons--wrapper{
+        display: flex;
+        justify-content:flex-start;
+        margin-top: 2.5em;
+        
+    }
+    
+    .social--icons {
+        max-width: 1.1em;
+        max-height: 1.1em;
+        border-radius: 0.2em;
+        
+    }
+    
+    #facebook--icon{
+        margin-right: 1.5em;
+    }
+    
+    #twitter--icon{
+        margin-right: 1.5em;
+    }
+    
+    
+    
+    #github--icon{
+        margin-right: 1.5em;
+        margin-left: 6em;
+    }
+    
+    article{
+        margin-left:2em;
+        
+    }
+
+
+@media screen and (max-width: 700px) {
+
+    *{
+        font-family: 'Georgia','serif'; 
+        line-height: 1.5em;
+        box-sizing: border-box;
+        /* color: var(--mainTextColor); */
+        font-size:medium;
+     }
+
+    #container--main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0%;
+        justify-content: center;
+        
+     }
+    
+     .section--one {
+        background-color:white;
+        max-width: 90%;
+        padding: 7% 0% 5% 0%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 1.7em;
+        margin-top: 1em;
+     }
+     
+     .section--two {
+        background-color:rgb(240, 240, 240);
+        max-width: 90%;
+        justify-content: center;
+        text-align: center;
+        padding: 7% 5% 7% 5%;
+        margin-left: 1.7em;
+        margin-top: 0em;
+        margin-bottom: 1em;
+        
+     }
+    
+     #profile-pic {
+        max-width:10em;
+        max-height:10.5em;
+        object-fit: cover;
+        margin-bottom: 1em;
+    }
+    
+    #hero--name{
+        font-size: 1.4em;
+        font-weight: bold;
+       
+    }
+
+    #job--role{
+        font-size: 1em;
+    }
+    
+    #about{
+        text-align: center;
+        margin-bottom: 1.7em;
+        font-weight: bold;
+    }
+    
+    .btn--btn {
+        border:0;
+        color: #fff;
+        background-color:#000;
+        margin-top: 4em;   
+    }
+    
+    #resume--btn {
+        margin-right: 2em;
+        padding: 0.1em 1em;
+    }
+    
+    #portfolio--btn {
+        margin-left: 5em;
+        padding: 0.1em 1em;
+    }
+    
+    .email--me {
+        padding: 0.1em 1em;
+        color: #fff;
+        background-color:#000;
+        margin-top: 1em;
+        border:0;
+    }
+    
+    .social--icons--wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5em;
+        
+    }
+    
+    .social--icons {
+        max-width: 1em;
+        max-height: 1em;
+        border-radius: 0.2em;
+        
+    }
+    
+    #facebook--icon{
+        margin-right: 1.5em;
+    }
+    
+    #twitter--icon{
+        margin-right: 1.5em;
+    }
+    
+    
+    
+    #github--icon{
+        margin-right: 1.5em;
+        margin-left: 0em;
+    }
+    
+    article p {
+        margin-left:2em;
+        
+    }
+}
+
+@media screen and (max-width: 400px){
+    #hero--name{
+        font-size: 1.1em;
+        font-weight: bold;
+       
+    }
+
+    cite{
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+ 
+    
+    #portfolio--btn {
+        margin-left: 3em;
+        padding: 0.1em 1em;
+    }
+}
+
+
+@media screen and (max-width: 469px){
+    #hero--name{
+        font-size: 1em;
+        font-weight: bold;
+       
+    }
+
+  
+}
