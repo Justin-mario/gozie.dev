@@ -509,7 +509,7 @@ body {
 
 
 
-@media screen and (max-width: 354px ){
+@media screen and (max-width: 450px ){
     *{
     
         box-sizing: border-box;
