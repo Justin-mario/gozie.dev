@@ -672,7 +672,7 @@ body {
     padding: 0.5em 0em;
     background-color:rgb(241, 240, 240);   
     font-size: 0.6em;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 #project--text{
@@ -694,8 +694,35 @@ body {
     max-height: 10em;;
 }
 
+#orsul--image--div{
+    border-radius: 1em;
+    border: 1px solid whitesmoke;
+    background-color:whitesmoke;
+    padding: 1em 1em 0em 1em;
+    margin-right: 10.3em;
+    margin-bottom:2em;
+}
+
+#roadpadi--image--div {
+    border-radius: 1em;
+    border: 1px solid whitesmoke;
+    background-color:whitesmoke;
+    padding: 1em 1em 0em 1em;
+    margin-right: 10.3em;
+    margin-bottom:2em;;
+}
+
+#qr-generator--image--div {
+    border-radius: 1em;
+    border: 1px solid whitesmoke;
+    background-color:whitesmoke;
+    padding: 1em 1em 0em 1em;
+    margin-right: 10.3em;
+    margin-bottom:2em;
+}
+
 #copyright--2022{
-    margin-left:2em;
+    margin-left:1.5em;
     font-family:'Courier New', Courier, monospace;
     font-weight:lighter;
     font-size:medium;
@@ -751,12 +778,12 @@ body {
 
 
 .projects--p{
-    margin: 0.5em 0em 4em 1em; 
+    margin: 1em 0em 1em 1em; 
     font: 0.5em Courier; 
 }
 
 .projects--roadpadi{
-    margin: 0.5em 0em 4em 1em; 
+    margin: 1em 0em 1em 1em; 
     font: 0.5em Courier; 
 }
 
