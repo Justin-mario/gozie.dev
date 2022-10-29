@@ -562,7 +562,7 @@ body {
     max-width: 17em;
     font-family:'Courier New', Courier, monospace;
     margin-top: 1em;
-    margin-right: 3em;
+    margin-left: 1em;
 }
 
 #section--two--p {
@@ -570,7 +570,7 @@ body {
     font-size:0.7em;
     line-height: 1.5em;
     font-family: 'Courier New', Courier, monospace; ;
-    margin-left: 1em;
+    margin-left: 0em;
 }
 
 .work--history--section{
@@ -596,7 +596,7 @@ body {
 
 .divider--div{
     border-bottom: 3px dotted gray;
-    margin-right: 7em;
+    margin-right: 6em;
     margin-left: 0em;
     margin-bottom: 2em;
 }
@@ -609,7 +609,6 @@ body {
 }
 
 .wrapper--techstack--items{
-    /* box-sizing: border-box; */
     display: flex;
     margin-top:0.5em;
     margin-right:0em;
@@ -645,8 +644,8 @@ body {
     max-height: 10em;;
 }
 
-#designed--by--me{
-    margin-left:2.3em;
+#copyright--2022{
+    margin-left:2em;
     font-family:'Courier New', Courier, monospace;
     font-weight:lighter;
     font-size:medium;
