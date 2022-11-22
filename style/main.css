@@ -118,6 +118,47 @@ body {
     }
 
 
+
+
+@media screen and (max-width: 450px){
+    
+    
+    #hero--name{
+        font-size: 1.1em;
+        font-weight: bold;
+       
+    }
+
+    cite{
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+ 
+    
+    #portfolio--btn {
+        margin-left: 1em;
+        padding: 0.1em 1em;
+    }
+
+    #resume--btn {
+        margin-right: 1em;
+        padding: 0.1em 1em;
+        margin-left: 1em;
+    }
+}
+
+
+@media screen and (max-width: 469px){
+    #hero--name{
+        font-size: 1em;
+        font-weight: bold;
+       
+    }
+
+  
+}
+
 @media screen and (max-width: 720px) {
 
     *{
@@ -240,45 +281,6 @@ body {
         margin-right:1em;
         
     }
-}
-
-@media screen and (max-width: 450px){
-    
-    
-    #hero--name{
-        font-size: 1.1em;
-        font-weight: bold;
-       
-    }
-
-    cite{
-        font-size: 0.8em;
-        font-weight: normal;
-    }
-
- 
-    
-    #portfolio--btn {
-        margin-left: 1em;
-        padding: 0.1em 1em;
-    }
-
-    #resume--btn {
-        margin-right: 1em;
-        padding: 0.1em 1em;
-        margin-left: 0em;
-    }
-}
-
-
-@media screen and (max-width: 469px){
-    #hero--name{
-        font-size: 1em;
-        font-weight: bold;
-       
-    }
-
-  
 }
 
 @media screen and (max-width: 1140px){
