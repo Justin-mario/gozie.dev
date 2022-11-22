@@ -1,40 +1,35 @@
-body {
-    max-width: 100%;
+.col--div {
     background-color:rgb(240, 240, 240);
     
 }
 
+
 *{
-    font-weight: bold;
     box-sizing: border-box;
-   
  }
 
 
-
-.container {
-    background-color: white;
-    max-width: 50em;
-    margin: 0 auto;
-
-}
-
 .section--one {
     display: flex;
-    padding-top: 8%;
-    margin-left: 4em;
+    padding-top: 3em;
+    margin-left: 3em;
+}
+
+#image--one {
+    max-width: 13em;
+    max-height: 13em;
+    margin-top: 1em;
+    
 }
 
 .section--two {
     display: flex;
-    padding-top: 6%;
-    margin-left: 14em;
-    margin-bottom: 4em;
+    margin-left: 6em;
+    margin-right: 6em;
 }
 
 #section--two--p {
-    max-width: 20em; 
-    font-size:0.9em;
+    font-size:1.3em;
     line-height: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 1em;
@@ -44,14 +39,7 @@ body {
 }
 
 
-#image--one {
-    max-width: 11em;
-    max-height: 11em;
-    align-items: flex-end;
-    margin-left: 4em;
-    margin-top: 1em;
-    
-}
+
 
 #image--three {
     max-width: 10em;
@@ -63,62 +51,46 @@ body {
 }
 
 #about--me{
-    font-weight: bolder;
-    font-size: xx-large;
-    max-width: 10em;
     font-family: 'Courier New','monospace';
-    margin-top: 0;
-    margin-right: 3.5em;
 }
 
-#work--experience {
+
+
+.work--experience{
     margin-top: 8em;
-    margin-left: 4em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-align: center; */
+    font-size: 1.1em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
 .work--history--section{
-    display: flex;
-    margin-top:2em;
-    font-size: smaller;
-    margin-left: 5em;
+    font-size: small;
     font-family:'Courier New', Courier, monospace;
 }
 
 .work--history--div{
-    font-size: 1.1em;
+    font-size: 1.4em;
     border-radius: 1em;
     border: 4px solid whitesmoke;
-    background-color:whitesmoke;
-    padding: 1em;
+    background-color:whitesmoke;    
 }
 
-.card--work-history {
-    margin-right: 6em;
-    
-}
 
-.orsul--work--history{
-    margin-left: 1em;
-    
-}
-
-.divider--div{
+/* .divider--div{
     border-left: 3px dotted gray;
-    margin-right: 3em;
-    margin-left: 4em;
-}
+    margin-right: 0em;
+    margin-left: 2em;
+    padding-bottom: 5em;
+} */
 
 .skills--section{
     margin-top:6em;
-    margin-left: 4.5em;
     font-family:'Courier New', Courier, monospace;
 }
 
 
 #skills--and--languages{
-    font-family:Georgia, 'Times New Roman', Times, serif
-   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
 }
 
 .wrapper--techstack--items{
@@ -129,109 +101,60 @@ body {
 }
 
 .card--techstack{
-    border-right: 0px solid gray;
-    border-left: 0px solid gray;
-    padding: 0.5em 1em;
+    border-top: 0px solid gray;
+    border-bottom: 3px solid gray;
+    padding: 0.5em 0.5em;
     background-color:rgb(241, 240, 240);
-    margin-right:1em;
-    margin-left:2em;
+    margin-right:0em;
+    margin-left:1.5em;
+    font-size: 1.1em;
 }
 
 #project--text{
-    margin-left: 4.5em;
-    margin-top: 5em;
-    margin-bottom: 2em;
+    font-size: 1.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-
-
-.projects {
-    margin-left: 11em;
-    margin-bottom: 4em;
-    margin-top: 2em;
 }
 
 .projects--images{
-    max-width: 25em;
-    max-height: 20em;  
+    max-width: 43em;
+    max-height: 25em;  
 }
 
-
-#orsul--image--div{
-   
-    margin-right: 5.2em;
-    margin-bottom:2em;
-}
-
-#roadpadi--image--div {
-
-    margin-right: 5.2em;
-    margin-bottom:2em;
-}
-
-#qr-generator--image--div {
- 
-    margin-right: 5.2em;
-    margin-bottom:2em;
-}
 .last--section{
-    display:flex;
-    margin-left: 4em;
-    margin-right: 3em;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     line-height: 2em;
     border-radius: 1em;
     border: 4px solid whitesmoke;
-    background-color:whitesmoke;
-    padding: 1em 5em 1em 1em;
-    margin-right: 3em;
-    margin-top: 1em;
-    /* max-width: 37em; */
-   
+    background-color:whitesmoke; 
 }
 
 #lets--work--together{
-    margin-top: 6em;
-    margin-left: 4.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.1em;
     
 }
 
 #copyright--2022{
-    margin-left:10em;
     font-family:'Courier New', Courier, monospace;
     font-weight:bold;
     font-size: large;
 }
 
-#linkedin{
-    margin: 0 3em;
-}
+
 
 .social--media{
-    margin-left: 4em;
-    margin-top: 5em;  
-    display: flex;
     font-family:'Courier New', Courier, monospace;
     font-size: large;
-    font-weight: bold;
-    margin-right: 3em;
+    font-weight: bold; 
 }
 
 .projects--p{
-    margin: 3em 0em 0em 3em; 
-    font: 0.9em 'Courier New', Courier, monospace;
-}
-
-.projects--roadpadi{
-    margin: 1em 0em 0em 5em; 
-    font: 0.9em 'Courier New', Courier, monospace;
+    font: 1em 'Courier New', Courier, monospace;
 }
 
 #empty--div{
-    margin: 2em;
+    margin: 0em;
     color:white
 }
 
@@ -242,789 +165,4 @@ body {
    text-decoration-line: underline;  
    font-size: large;
    font-weight: bold;
-
 }
-
-@media screen and (max-width: 600px){
-    *{
-    
-        box-sizing: border-box;
-       
-     }
-    .section--one {
-        display: flex;
-        flex-direction:column-reverse;
-        padding-top: 8%;
-        margin-left: 8.5em;
-    }
-
-    #image--one {
-        max-width: 11em;
-        max-height: 11em;
-        align-items:flex-start;
-        margin-left: 4em;
-        margin-top: 1em;
-        
-    }
-
-    
-.section--two {
-    display: flex;
-    padding-top: 6%;
-    margin-left: 9em;
-    margin-bottom: 4em;
-}
-
-#about--me{
-    font-weight: bolder;
-    font-size: large;
-    max-width: 17em;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 1em;
-    margin-right: 3em;
-}
-
-#section--two--p {
-    max-width: 20em; 
-    font-size:0.85em;
-    line-height: 1.5em;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 2em;
-}
-
-.work--history--section{
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top:2em;
-    font-size: smaller;
-    margin-left: 9em;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-
-#work--experience {
-    margin-top: 6em;
-    margin-left: 7.5em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-.divider--div{
-    border-bottom: 3px dotted gray;
-    margin-right: 16em;
-    margin-left: 0em;
-    margin-bottom: 2em;
-}
-
-#skills--and--languages{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 0em;
-   
-}
-
-.wrapper--techstack--items{
-    /* box-sizing: border-box; */
-    display: flex;
-    margin-top:1.5em;
-    margin-right:0em;
-    border: 0;
-    margin-left: 0em;    
-}
-
-.card--techstack{
-    border-left: 0px solid gray;
-    border-right: 0px solid gray;
-    padding: 0.5em 0.3em;
-    background-color:rgb(241, 240, 240); 
-    font-size: .8em;  
-}
-
-#project--text{
-    margin-left: 5em;
-    margin-top: 5em;
-    margin-bottom: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.projects {
-    margin-left: 5em;
-    margin-bottom: 4em;
-    margin-top: 2em;
-   
-}
-#orsul--image--div{
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;
-}
-
-#roadpadi--image--div {
-    margin-right: 10.3em;
-    margin-bottom:2em;;
-}
-
-#qr-generator--image--div {
-    border-radius: 1em;
-    margin-right: 10.3em;
-    margin-bottom:2em;
-}
-
-.projects--images{
-    max-width: 17em;
-    max-height: 17em;;
-}
-
-#designed--by--me{
-    margin-left:2em;
-    font-family:'Courier New', Courier, monospace;
-    font-weight:bold;
-    font-size: large;
-}
-
-}
-
-
-
-
-@media screen and (max-width: 500px ){
-    *{
-    
-        box-sizing: border-box;
-       
-     }
-    .section--one {
-        display: flex;
-        flex-direction:column-reverse;
-        padding-top: 8%;
-        margin-left: 3em;
-    }
-
-    #image--one {
-        max-width: 11em;
-        max-height: 11em;
-        align-items:flex-start;
-        margin-left: 3.5em;
-        margin-top: 1em;
-        
-    }
-
-    
-.section--two {
-    display: flex;
-    padding-top: 6%;
-    margin-left: 2.8em;
-    margin-bottom: 4em;
-}
-
-#about--me{
-    font-weight: bolder;
-    font-size: large;
-    max-width: 17em;
-    font-family: 'Courier New','monospace';
-    margin-top: 1em;
-    margin-right: 3em;
-}
-
-#section--two--p {
-    max-width: 20em; 
-    font-size:0.85em;
-    line-height: 1.5em;
-    font-family: 'Courier New' ;
-    margin-left: 1.5em;
-}
-
-.work--history--section{
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top:2em;
-    font-size: smaller;
-    margin-left: 5em;
-    
-}
-
-#work--experience {
-    margin-top: 6em;
-    margin-left: 4em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.orsul--work--history{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 0em;
-}
-
-.divider--div{
-    border-bottom: 3px dotted gray;
-    margin-right: 9em;
-    margin-left: 0em;
-    margin-bottom: 2em;
-}
-
-#skills--and--languages{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 0em;
-   
-}
-
-.wrapper--techstack--items{
-    /* box-sizing: border-box; */
-    display: flex;
-    margin-top:0.5em;
-    margin-right:0em;
-    border: 0;
-    margin-left: 0em;    
-}
-
-.card--techstack{
-    border-left: 0px solid gray;
-    border-right: 0px solid gray;
-    padding: 0.5em 0em;
-    background-color:rgb(241, 240, 240);   
-    font-size: 0.7em;
-}
-
-#project--text{
-    margin-left: 4em;
-    margin-top: 5em;
-    margin-bottom: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.projects {
-    margin-left: 5em;
-    margin-bottom: 4em;
-    margin-top: 2em;
-   
-}
-
-#orsul--image--div{
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;
-}
-
-#roadpadi--image--div {
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;;
-}
-
-#qr-generator--image--div {
-    border-radius: 1em;
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;
-}
-
-
-.projects--images{
-    max-width: 15em;
-    max-height: 15em;;
-}
-
-#designed--by--me{
-    margin-left:0.6em;
-    font-family:'Courier New', Courier, monospace;
-    font-weight:bold;
-    font-size: large;
-}
-
-#lets--work--together{
-    margin-top: 6em;
-    margin-left: 4.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.8em;
-    
-}
-
-.last--section{
-    display:flex;
-    margin-left: 5em;
-    margin-right: 5.4em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 0.8em;
-    line-height: 2em;
-    /* max-width: 37em; */
-   
-}
-
-#linkedin{
-    margin: 0 0.5em;
-}
-
-.social--media{
-    margin-left: 2em;
-    margin-top: 5em;  
-    display: flex;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 1em;
-    font-weight: bold;
-}
-
-#empty--div{
-    margin: 2em;
-    color:white
-}
-
-.email--me {
-   border: 0;
-   background-color: white;
-   font-family:'Courier New', Courier, monospace;
-   text-decoration-line: underline;  
-   font-size: 1em;
-   font-weight: bold;
-
-}
-
-.projects--p{
-    margin: 0.5em 0em 4em 5em; 
-    font: 0.5em Courier; 
-}
-
-.projects--roadpadi{
-    margin: 0.5em 0em 4em 2em; 
-    font: 0.5em Courier; 
-}
-
-}
-
-
-
-
-
-@media screen and (max-width: 450px ){
-    *{
-    
-        box-sizing: border-box;
-        font-weight: bold;
-     }
-
-     .container {
-        background-color: white;
-        max-width: 48em;
-        margin: 0 auto;
-    
-    }
-    .section--one {
-        display: flex;
-        flex-direction:column-reverse;
-        padding-top: 8%;
-        margin-left: 3.5em;
-    }
-
-    #image--one {
-        max-width: 11em;
-        max-height: 11em;
-        align-items:flex-start;
-        margin-left: 3em;
-        margin-top: 1em;
-        
-    }
-
-    
-.section--two {
-    display: flex;
-    padding-top: 6%;
-    margin-left: 4.5em;
-    margin-bottom: 4em;
-}
-
-#about--me{
-    font-weight: bold;
-    font-size:small;
-    max-width: 17em;
-    font-family:'Courier New', Courier, monospace;
-    margin-top: 1em;
-    margin-left: 1em;
-}
-
-#section--two--p {
-    max-width: 20em; 
-    font-size:0.7em;
-    line-height: 1.5em;
-    font-family: 'Courier New', Courier, monospace; ;
-    margin-left: 0em;
-}
-
-.work--history--section{
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top:2em;
-    font-size: smaller;
-    margin-left: 5em;
-    margin-right: 5em;
-    font-family: 'Courier New', Courier, monospace; ;
-    
-}
-
-#work--experience {
-    margin-top: 6em;
-    margin-left: 4em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.orsul--work--history{
-    font-family:'Courier New', Courier, monospace;
-    margin-bottom: 0em;
-    margin-left: 0em;
-}
-
-.divider--div{
-    border-bottom: 3px dotted gray;
-    margin-right: 1em;
-    margin-left: 0em;
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
-
-#skills--and--languages{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 0em;
-    margin-right:0em;
-   
-}
-
-.wrapper--techstack--items{
-    display: flex;
-    margin-top:0.5em;
-    margin-right:0em;
-    border: 0;
-    margin-left: 0em;    
-}
-
-.card--techstack{
-    border-left: 0px solid gray;
-    border-right: 0px solid gray;
-    padding: 0.5em 0em;
-    background-color:rgb(241, 240, 240);   
-    font-size: 0.6em;
-    margin-left: 1em;
-}
-
-#project--text{
-    margin-left: 4.5em;
-    margin-top: 5em;
-    margin-bottom: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.projects {
-    margin-left: 4.5em;
-    margin-bottom: 4em;
-    margin-top: 2em;
-   
-}
-
-.projects--images{
-    max-width: 10em;
-    max-height: 10em;;
-}
-
-#orsul--image--div{
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;
-}
-
-#roadpadi--image--div {
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;;
-}
-
-#qr-generator--image--div {
-    border-radius: 1em;
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;
-}
-
-#copyright--2022{
-    margin-left:1.5em;
-    font-family:'Courier New', Courier, monospace;
-    font-weight:lighter;
-    font-size:medium;
-}
-
-#lets--work--together{
-    margin-top: 6em;
-    margin-left: 5.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.8em;
-}
-
-.last--section{
-    display:flex;
-    margin-left: 6em;
-    margin-right: 5.6em;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    padding-left: 0.5em;
-    /* max-width: 37em; */
-   
-}
-
-#linkedin{
-    margin: 0 0.8em;
-}
-
-.social--media{
-    margin-left: 2.5em;
-    margin-top: 5em;  
-    display: flex;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 0.8em;
-    font-weight: bold;
-}
-
-#empty--div{
-    margin: 2em;
-    color:white
-}
-
-.email--me {
-   border: 1em;
-   background-color: white;
-   font-family:'Courier New', Courier, monospace;
-   text-decoration-line: underline;  
-   font-size: 1em;
-   font-weight: bold;
-   margin-left: 2em;
-
-}
-
-
-
-.projects--p{
-    margin: 1em 0em 1em 1em; 
-    font: 0.5em Courier; 
-}
-
-.projects--roadpadi{
-    margin: 1em 0em 1em 1em; 
-    font: 0.5em Courier; 
-}
-
-}
-
-@media screen and (max-width: 400px){
-
-   
-
-    *{
-    
-        box-sizing: border-box;
-        font-weight: bold;
-     }
-
-     .container {
-        background-color: white;
-        max-width: 48em;
-        margin: 0 auto;
-    
-    }
-    .section--one {
-        display: flex;
-        flex-direction:column-reverse;
-        padding-top: 8%;
-        margin-left: 3.5em;
-    }
-
-    #image--one {
-        max-width: 11em;
-        max-height: 11em;
-        align-items:flex-start;
-        margin-left: 3em;
-        margin-top: 1em;
-        
-    }
-
-    
-.section--two {
-    display: flex;
-    padding-top: 6%;
-    margin-left: 4.5em;
-    margin-bottom: 4em;
-}
-
-#about--me{
-    font-weight: bold;
-    font-size:small;
-    max-width: 17em;
-    font-family:'Courier New', Courier, monospace;
-    margin-top: 1em;
-    margin-left: 1em;
-}
-
-#section--two--p {
-    max-width: 20em; 
-    font-size:0.7em;
-    line-height: 1.5em;
-    font-family: 'Courier New', Courier, monospace; ;
-    margin-left: 0em;
-}
-
-.work--history--section{
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top:2em;
-    font-size: smaller;
-    margin-left: 5em;
-    margin-right: 5em;
-    font-family: 'Courier New', Courier, monospace; ;
-    
-}
-
-#work--experience {
-    margin-top: 6em;
-    margin-left: 4em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.orsul--work--history{
-    font-family:'Courier New', Courier, monospace;
-    margin-bottom: 0em;
-    margin-left: 0em;
-}
-
-.divider--div{
-    border-bottom: 3px dotted gray;
-    margin-right: 1em;
-    margin-left: 0em;
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
-
-#skills--and--languages{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 0em;
-    margin-right:0em;
-   
-}
-
-.wrapper--techstack--items{
-    display: flex;
-    margin-top:0.5em;
-    margin-right:0em;
-    border: 0;
-    margin-left: 0em;    
-}
-
-.card--techstack{
-    border-left: 0px solid gray;
-    border-right: 0px solid gray;
-    padding: 0.5em 0em;
-    background-color:rgb(241, 240, 240);   
-    font-size: 0.6em;
-    margin-left: 1em;
-}
-
-#project--text{
-    margin-left: 4.5em;
-    margin-top: 5em;
-    margin-bottom: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.projects {
-    margin-left: 4.5em;
-    margin-bottom: 4em;
-    margin-top: 2em;
-   
-}
-
-.projects--images{
-    max-width: 10em;
-    max-height: 10em;;
-}
-
-#orsul--image--div{
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;
-}
-
-#roadpadi--image--div {
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;;
-}
-
-#qr-generator--image--div {
-    border-radius: 1em;
-   
-    margin-right: 10.3em;
-    margin-bottom:2em;
-}
-
-#copyright--2022{
-    margin-left:1.5em;
-    font-family:'Courier New', Courier, monospace;
-    font-weight:lighter;
-    font-size:medium;
-}
-
-#lets--work--together{
-    margin-top: 6em;
-    margin-left: 5.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.8em;
-}
-
-.last--section{
-    display:flex;
-    margin-left: 6em;
-    margin-right: 5.6em;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.7em;
-    line-height: 1.5em;
-    padding-left: 0.5em;
-    /* max-width: 37em; */
-   
-}
-
-#linkedin{
-    margin: 0 0.8em;
-}
-
-.social--media{
-    margin-left: 2.5em;
-    margin-top: 5em;  
-    display: flex;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 0.8em;
-    font-weight: bold;
-}
-
-#empty--div{
-    margin: 2em;
-    color:white
-}
-
-.email--me {
-   border: 1em;
-   background-color: white;
-   font-family:'Courier New', Courier, monospace;
-   text-decoration-line: underline;  
-   font-size: 1em;
-   font-weight: bold;
-   margin-left: 2em;
-
-}
-
-
-
-.projects--p{
-    margin: 1em 0em 1em 1em; 
-    font: 0.5em Courier; 
-}
-
-.projects--roadpadi{
-    margin: 1em 0em 1em 1em; 
-    font: 0.5em Courier; 
-}
-    
-}
-
