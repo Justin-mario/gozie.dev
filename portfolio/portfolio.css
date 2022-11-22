@@ -206,13 +206,13 @@
             margin-top:2em;
         }
         .work--history--section{
-            font-size: small;
+            font-size: normal;
             font-family:'Courier New', Courier, monospace;
             margin-top: 0em ;
         }
 
         .work--history--div{
-            font-size: 1em;
+            font-size: 1.1em;
             border-radius: 1em;
             border: 4px solid whitesmoke;
             background-color:whitesmoke;    
@@ -263,7 +263,7 @@
 
         .last--section{
             font-family: 'Courier New', Courier, monospace;
-            font-size: 0.8em;
+            font-size: 0.9em;
             line-height: 1.5em;
             border-radius: 1em;
             border: 4px solid whitesmoke;
@@ -275,7 +275,7 @@
 
         #last--div{
             margin-right:2em;
-            margin-left: 0.5em;
+            margin-left: 0em;
         }
         
         #lets--work--together{
