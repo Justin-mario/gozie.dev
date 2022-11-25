@@ -39,7 +39,20 @@
         max-width:8em;
         max-height:8.5em;
         
-    }    
+    } 
+    
+    .article{
+        font-size: 0.7em;
+        
+    }
+
+    .btn--btn {
+        color: #fff;
+        background-color:#000;
+        font-size: 0.7em;
+    }
+
+  
 }
 
 
