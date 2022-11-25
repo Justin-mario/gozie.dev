@@ -1,6 +1,5 @@
 .col--div {
-    background-color:rgb(240, 240, 240);
-    
+    background-color:rgb(240, 240, 240);    
 }
 
 
@@ -11,29 +10,21 @@
 
 .section--one {
     display: flex;
-    padding-top: 3em;
-    margin-left: 3em;
 }
 
 #image--one {
     max-width: 13em;
-    max-height: 13em;
-    margin-top: 1em;
-    
+    max-height: 13em;   
 }
 
-.section--two {
-    display: flex;
-    margin-left: 6em;
-    margin-right: 6em;
-}
+
 
 #section--two--p {
     font-size:1em;
     line-height: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 1em;
-    border: 4px solid whitesmoke;
+    border: 4px solid whitesmoke; 
     background-color:whitesmoke;
     padding: 1em;
 }
@@ -90,11 +81,7 @@
 
 .wrapper--techstack--items{
     display: flex;
-    margin-top:1em;
-    margin-left: 5em;
-    
-    
-}
+   }
 
 .card--techstack{
     border-top: 0px solid gray;
@@ -126,8 +113,7 @@
     border-radius: 1em;
     border: 4px solid whitesmoke;
     background-color:whitesmoke; 
-   margin-left: 1em;
-    margin-right: 1em !important;
+ 
 }
 
 #lets--work--together{
@@ -174,6 +160,12 @@
 
 @media screen and (max-width: 450px){
 
+    .section--one {
+    display: flex;
+    padding-top: 1em;
+    margin-left: 0em;
+}
+
     #about--me{
         font-family: 'Courier New','monospace';
        
@@ -181,12 +173,12 @@
     #image--one {
         max-width: 8em;
         max-height: 8em;
-        margin-top: 1em;
+        margin-top: 0em;
         }
 
         .section--two {
-            margin-left: 1em;
-            margin-right: 1em;
+            margin-left: 0.5em;
+            margin-right: 0.5em;
         }
 
         #section--two--p {
@@ -237,8 +229,7 @@
         
         .wrapper--techstack--items{
             display: flex;
-            margin-top:1em;
-            margin-left:0em;
+          
             
             
         }
@@ -330,6 +321,11 @@
 
 
 @media screen and (max-width: 720px){
+    .section--one {
+        display: flex;
+        padding-top: 1em;
+        margin-left: 0em;
+    }
     #about--me{
         font-family: 'Courier New','monospace';
        
@@ -337,7 +333,7 @@
     #image--one {
         max-width: 8em;
         max-height: 8em;
-        margin-top: 1em;
+        margin-top: 0em;
         }
 
         .section--two {
@@ -392,8 +388,7 @@
         
         .wrapper--techstack--items{
             display: flex;
-            margin-top:1em;
-            margin-left:1em;
+           
             }
         
         .card--techstack{
