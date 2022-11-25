@@ -26,7 +26,7 @@
     }
     
     .article{
-        font-size: 0.95em;
+        font-size: 0.955em;
         
     }
    
@@ -34,7 +34,7 @@
 @media screen and (max-width: 720px) {
      #profile-pic {
         max-width:8em;
-        max-height:7em;
+        max-height:8.5em;
         
     }    
 }
